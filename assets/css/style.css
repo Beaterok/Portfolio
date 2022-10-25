@@ -1,3 +1,4 @@
+/*I used header element as a nav bar  */
 header {
   display: flex;
   flex-direction: row;
@@ -10,7 +11,7 @@ header {
   color: white;
   align-items: center;
 }
-
+/*Removed item list on the header*/
 header ul {
   display: flex;
   list-style: none;
@@ -23,10 +24,11 @@ header li a {
   color: white;
   justify-content: space-between;
 }
-
+/*Changes background color of nav on hover*/
 header li a:hover {
   background-color: #111;
 }
+/*Changed text color and background color of the page*/
 body{
   color: rgba(255, 255, 255, 0.995);
   background-image: linear-gradient(180deg, rgb(99, 64, 129), rgb(73, 59, 201));
@@ -36,7 +38,7 @@ main {
   flex-wrap: wrap;
   width: 100%;
 }
-
+/* */
 .about {
   display: flex;
   flex-direction: row;
@@ -44,13 +46,13 @@ main {
   text-align: center;
   width: 100%;
 }
-
+/*Making sure that all my headers centered and visible*/
 h2,h3,h5 {
   text-align: center;
   font-size: 50px;
   width: 100%;
 }
-
+/*profile image*/
 .about img {
   width: 150px;
   height: 140px;
@@ -58,10 +60,11 @@ h2,h3,h5 {
 .about ul{
   list-style: none;
 }
-
+/*making hover element on my git and linked in icons*/
 .about img:hover {
   background-color: white;
 }
+/*Sizing my icons */
 .about ul img{
   
   margin: 10px;
@@ -69,6 +72,7 @@ h2,h3,h5 {
   width: 35px;
   height: 35px;
 }
+/*this is the box for my projects section*/
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -78,7 +82,7 @@ h2,h3,h5 {
 
   text-align: center;
 }
-
+/*Card referes to my separate project boxes*/
 .card {
   display: flex;
   flex-wrap: wrap;
@@ -92,12 +96,12 @@ h2,h3,h5 {
   margin: 30px;
   padding: 0px;
 }
-
+/* title of the project boxes*/
 h4 {
   top: 0%;
   font-size: 40px;
 }
-
+/*Images inside my project boxes*/
 .card img {
   width: 500px;
   height: 500px;
@@ -110,7 +114,7 @@ footer {
   color: white;
   
 }
-
+/*Changing the way my header(nav) displayed on screen change*/
 @media screen and (max-width: 900px) {
   header {
     flex-direction: column;
